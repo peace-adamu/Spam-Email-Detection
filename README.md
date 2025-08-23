@@ -6,7 +6,8 @@ Welcome to the Spam Detector — a machine learning-powered web app that classif
 Check out the live app here:  
 👉 [Spam Email Detection App](https://spam-email-detection-js7dfonwtilwxchxmsap3g.streamlit.app/)
 
-
+## Acknowledgement
+I want to use this privilege to appreciate Muhammad Abdullah, the author of "NLP Email Spam Detection: A Beginner's Guide." His work has been instrumental in helping me understand the complexities of NLP and its practical applications. The open documentation he has provided was so effective that I was able to replicate his work and successfully apply it to my own dataset. I am truly grateful for his contributions.
 
 ## Features
 -  Real-time spam classification
