@@ -22,6 +22,14 @@ def preprocess_text(text):
 
 # Streamlit UI
 st.title("📧 Spam Detector")
+st.sidebar.title("About")
+st.sidebar.info("Built by Peace using Streamlit, NLTK, and XGBoost.")
+st.markdown("This app predicts whether an email message is Spam or Not Spam." \
+" Enter your email message below and click 'Predict'." \
+" The model is trained on the SMS Spam Collection dataset." \
+" It uses XGBoost for classification and NLTK for text preprocessing." \
+" Let's check if your message is spam!")
+
 user_input = st.text_area("Enter your email message:")
 
 if st.button("Predict"):
@@ -30,3 +38,4 @@ if st.button("Predict"):
     prediction = model.predict(vectorized)[0]
     label = "Spam 🚫" if prediction == 1 else "Not Spam ✅"
     st.success(f"Prediction: {label}")
+
