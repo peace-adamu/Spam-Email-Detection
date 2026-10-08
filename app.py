@@ -21,7 +21,7 @@ def preprocess_text(text):
     return text
 
 # Streamlit UI
-st.title("📧 Spam Detector")
+st.title("📧 Email Spam Detector")
 st.sidebar.title("About")
 st.sidebar.info("Built by Peace using Streamlit, NLTK, and XGBoost.")
 st.markdown("This app predicts whether an email message is Spam or Not Spam." \
